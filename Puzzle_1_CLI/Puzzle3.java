@@ -6,13 +6,7 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
 /**
- * Puzzle 3
- * Try adding two values 12345 + 5432l where the 'l' in one of the value stands for long
- * 
- * 
-		 * Puzzle 4 Confusion!!!! Avoid using small letter 'l'(L) for long
-		 * Always use capital(L) in Long literals
-		 * literals. Always use capital(L) in Long literals.
+ 
 		 *
  * @author Omeya
  *
@@ -37,7 +31,7 @@ public static void main(String[] args) {
 		double first_num = Double.parseDouble(firstValue);
 		double second_num = Double.parseDouble(secondValue);
 		
-		System.out.println(firstValue+secondValue);
+		System.out.println(firstValue+" "+secondValue);
 
 		Expression expr = new Expression();
 		
